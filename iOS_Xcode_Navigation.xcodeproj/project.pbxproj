@@ -10,10 +10,10 @@
 		E48DC3E5289B95FF00191BCC /* iOS_Xcode_NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC3E4289B95FF00191BCC /* iOS_Xcode_NavigationApp.swift */; };
 		E48DC3E7289B95FF00191BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC3E6289B95FF00191BCC /* ContentView.swift */; };
 		E48DC3E9289B960100191BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48DC3E8289B960100191BCC /* Assets.xcassets */; };
-		E48DC3EC289B960100191BCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48DC3EB289B960100191BCC /* Preview Assets.xcassets */; };
 		E48DC3F6289B960100191BCC /* iOS_Xcode_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC3F5289B960100191BCC /* iOS_Xcode_NavigationTests.swift */; };
 		E48DC400289B960100191BCC /* iOS_Xcode_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC3FF289B960100191BCC /* iOS_Xcode_NavigationUITests.swift */; };
 		E48DC402289B960100191BCC /* iOS_Xcode_NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC401289B960100191BCC /* iOS_Xcode_NavigationUITestsLaunchTests.swift */; };
+		E48DC40F289BA35300191BCC /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC40E289BA35300191BCC /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,12 @@
 		E48DC3E4289B95FF00191BCC /* iOS_Xcode_NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Xcode_NavigationApp.swift; sourceTree = "<group>"; };
 		E48DC3E6289B95FF00191BCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E48DC3E8289B960100191BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E48DC3EB289B960100191BCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E48DC3F1289B960100191BCC /* iOS_Xcode_NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Xcode_NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48DC3F5289B960100191BCC /* iOS_Xcode_NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Xcode_NavigationTests.swift; sourceTree = "<group>"; };
 		E48DC3FB289B960100191BCC /* iOS_Xcode_NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Xcode_NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48DC3FF289B960100191BCC /* iOS_Xcode_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Xcode_NavigationUITests.swift; sourceTree = "<group>"; };
 		E48DC401289B960100191BCC /* iOS_Xcode_NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Xcode_NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E48DC40E289BA35300191BCC /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +96,10 @@
 			children = (
 				E48DC3E4289B95FF00191BCC /* iOS_Xcode_NavigationApp.swift */,
 				E48DC3E6289B95FF00191BCC /* ContentView.swift */,
+				E48DC40E289BA35300191BCC /* ContentView2.swift */,
 				E48DC3E8289B960100191BCC /* Assets.xcassets */,
-				E48DC3EA289B960100191BCC /* Preview Content */,
 			);
 			path = iOS_Xcode_Navigation;
-			sourceTree = "<group>";
-		};
-		E48DC3EA289B960100191BCC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E48DC3EB289B960100191BCC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E48DC3F4289B960100191BCC /* iOS_Xcode_NavigationTests */ = {
@@ -231,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48DC3EC289B960100191BCC /* Preview Assets.xcassets in Resources */,
 				E48DC3E9289B960100191BCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48DC40F289BA35300191BCC /* ContentView2.swift in Sources */,
 				E48DC3E7289B95FF00191BCC /* ContentView.swift in Sources */,
 				E48DC3E5289B95FF00191BCC /* iOS_Xcode_NavigationApp.swift in Sources */,
 			);
